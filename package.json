@@ -1,0 +1,41 @@
+{
+  "name": "testcontainers-cockroach",
+  "version": "0.0.1",
+  "description": "Cockroach module for Testcontainers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "author": {
+    "name": "Anton Zalyaldinov",
+    "email": "zloomsky@gmail.com"
+  },
+  "homepage": "https://github.com/zloom/testcontainers-cockroach#readme",
+  "bugs": {
+    "url": "https://github.com/zloom/testcontainers-cockroach/issues"
+  },
+  "keywords": [
+    "typescript",
+    "cockroach",
+    "sql",
+    "tests",
+    "database",
+    "testcontainers",
+    "docker"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "testcontainers": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/uuid": "^10.0.0",
+    "ts-jest": "^29.2.5",
+    "uuid": "^10.0.0"
+  }
+}

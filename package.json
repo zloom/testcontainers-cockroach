@@ -34,7 +34,9 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.13",
+    "@types/pg": "^8.11.10",
     "@types/uuid": "^10.0.0",
+    "pg": "^8.13.0",
     "ts-jest": "^29.2.5",
     "uuid": "^10.0.0"
   }

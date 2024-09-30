@@ -1,6 +1,6 @@
 {
   "name": "testcontainers-cockroach",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cockroach module for Testcontainers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
